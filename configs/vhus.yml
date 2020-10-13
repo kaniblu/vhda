@@ -1,0 +1,45 @@
+type: vhus
+vargs:
+  word_dim: 400
+  asv_dim: 200
+  conv_dim: 200
+  goal_dim: 200
+  state_dim: 200
+  zstate_dim: 200
+  asv_dropout: 0.5
+  word_encoder:
+    type: composite
+    vargs:
+      first_dim: 300
+      second_dim: 100
+      first:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: GloveEmbedding
+          default: zero
+      second:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: KazumaCharEmbedding
+          default: zero
+  seq_encoder:
+    type: rnn
+    vargs:
+      dropout: 0.3
+      rnn:
+        type: lstm
+        vargs:
+          dropout: 0
+          layers: 1
+          pack: true
+  state_decoder:
+    type: generic
+    vargs:
+      hidden_dim: 200
+  ctx_encoder:
+    type: lstm
+    vargs:
+      dropout: 0.0
+      num_layers: 1

@@ -1,0 +1,50 @@
+type: vhda
+vargs:
+  word_dim: 400
+  sent_dim: 100
+  asv_dim: 100
+  state_dim: 100
+  goal_dim: 100
+  spkr_dim: 8
+  conv_dim: 100
+  ctx_dim: 100
+  zsent_dim: 100
+  zstate_dim: 100
+  zgoal_dim: 100
+  zspkr_dim: 100
+  zconv_dim: 100
+  spkr_dropout: 0.0
+  asv_dropout: 0.0
+  goal_dropout: 0.0
+  state_dropout: 0.0
+  sent_dropout: 0.0
+  word_dropout: 0.0
+  word_encoder: embedding
+  seq_encoder:
+    type: self-attentional-rnn
+    vargs:
+      dropout: 0.05
+      rnn:
+        type: lstm
+        vargs:
+          dropout: 0
+          layers: 1
+          pack: true
+  sent_decoder:
+    type: rnn
+    vargs:
+      rnn_dim: 1000
+      decoding_rnn:
+        type: lstm
+        vargs:
+          dropout: 0.0
+          num_layers: 1
+  state_decoder:
+    type: generic
+    vargs:
+      hidden_dim: 1000
+  ctx_encoder:
+    type: lstm
+    vargs:
+      dropout: 0.0
+      num_layers: 1

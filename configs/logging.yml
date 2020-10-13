@@ -1,0 +1,13 @@
+version: 1
+formatters:
+  default:
+    format: '%(asctime)-15s [%(levelname)-5s] (%(name)-15s) %(message)s'
+handlers:
+  console:
+    class: 'logging.StreamHandler'
+    formatter: 'default'
+    level: 'INFO'
+root:
+  handlers:
+    - console
+  level: 'INFO'

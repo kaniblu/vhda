@@ -1,0 +1,42 @@
+type: generic
+vargs:
+  word_dim: 400
+  hidden_dim: 400
+  word_dropout: 0.3
+  word_emb_dropout: 0.1
+  word_encoder:
+    type: composite
+    vargs:
+      first_dim: 300
+      second_dim: 100
+      first:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: GloveEmbedding
+          default: zero
+      second:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: KazumaCharEmbedding
+          default: zero
+  dst_encoder:
+    type: gce
+    vargs:
+      dropout: 0.2
+      token_dim: 300
+      act_slot_dim: 100
+      token_encoder:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: GloveEmbedding
+          default: zero
+      base_rnn: &rnn
+        type: bilstm
+        vargs:
+          num_layers: 1
+          pack: true
+          dropout: 0.0
+      act_slot_rnn: *rnn

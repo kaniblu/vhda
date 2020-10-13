@@ -1,0 +1,22 @@
+type: generic
+vargs:
+  word_dim: 100
+  hidden_dim: 100
+  word_encoder:
+    type: embedding
+    vargs:
+      pad: true
+  dst_encoder:
+    type: gce
+    vargs:
+      dropout: 0.2
+      token_dim: 100
+      act_slot_dim: 100
+      token_encoder: embedding
+      base_rnn: &rnn
+        type: bilstm
+        vargs:
+          num_layers: 1
+          pack: true
+          dropout: 0.0
+      act_slot_rnn: *rnn

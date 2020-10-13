@@ -1,0 +1,21 @@
+type: generic
+vargs:
+  word_dim: 100
+  hidden_dim: 100
+  word_encoder:
+    type: embedding
+    vargs:
+      pad: true
+  dst_encoder:
+    type: glad
+    vargs:
+      global_dropout: 0.2
+      local_dropout: 0.2
+      separate_gating: false
+      rnn_global: &rnn
+        type: bilstm
+        vargs:
+          num_layers: 1
+          pack: true
+          dropout: 0.2
+      rnn_local: *rnn

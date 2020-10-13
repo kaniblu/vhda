@@ -1,0 +1,1277 @@
+[
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "hello i looking for a restaurant that serves singaporean food",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "singaporean"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "food": [
+              "singaporean"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "no restaurants found",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "how about indian food",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "indian"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "food": [
+              "indian"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "what price range are you looking for",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "price range"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "cheap please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "indian"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "we have a few options would you like north or center town",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "area"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "east",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "indian"
+            ],
+            "price range": [
+              "cheap"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "unfortunately there are no cheap indian restaurants in the east side of town would you like either north or centre instead",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "area"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "i am looking for a restaurant on the east side of town that serves indian food and i do care about the price range",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "indian"
+            ],
+            "price range": [
+              "dontcare"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "price range": [
+              "dontcare"
+            ],
+            "food": [
+              "indian"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "there are two moderately priced indian restaurants on the east side the curry prince and rajmahal would you like information about either of these",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "can i have the address and phone number to the curry prince please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "indian"
+            ],
+            "price range": [
+              "dontcare"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "phone",
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "the address is 451 newmarket road fen ditton the phone number is 01223 566388 can i help you with anything else",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "no thank you",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "indian"
+            ],
+            "price range": [
+              "dontcare"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 790
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "can you help me find a cheap restaurant",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "sure the first restaurant that i have found is the italian restaurant ask at 12 bridge street city centre does that sound ok",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "it needs to be in the north part of town",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "cheap"
+            ],
+            "area": [
+              "north"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "north"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "i found da vinci pizzeria and royal spice which would you prefer",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "royal spice phone number and address please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "cheap"
+            ],
+            "area": [
+              "north"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "phone",
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 776
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "hi i looking for good chinese food on the west side",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "food": [
+              "chinese"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "food": [
+              "chinese"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "sorry there is no chinese restaurant in the west side do you want another type of food or different part of town",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "area",
+              "food"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "thank you goodbye",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "food": [
+              "chinese"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 607
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "hi can i have the phone number for a cheap restaurant in the north part of town",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          },
+          "request": {
+            "slot": [
+              "phone"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "there are two what were you looking to eat tonight",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "food"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "what is available",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "food"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "i am showing two cheap restaurants in the north part of town one serves italian food and the other serves indian food",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "food"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "surprise me",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ],
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "well da vinci pizzeria is and italian restaurant and their phone number is 01223 351707 would you like their address",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "yes i would",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ],
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "davinci is located at 20 milton road chesterton",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "thank you",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ],
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "you welcome",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "have a nice day",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ],
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "thank you will that be all for you",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "yes thank you",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "north"
+            ],
+            "price range": [
+              "cheap"
+            ],
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 642
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "find a moderately priced place for me please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "moderate"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "price range": [
+              "moderate"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "what type of food do you want",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "food"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "i do care",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "moderate"
+            ],
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "food": [
+              "dontcare"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "which area would you like",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "area"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "on the east side of town please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "moderate"
+            ],
+            "food": [
+              "dontcare"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "rajmahal is a moderately priced restaurant in the east part of town",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "great what is the phone number",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "moderate"
+            ],
+            "food": [
+              "dontcare"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "phone"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "the phone number is 01223 244955 is there anything i can help you with",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "thank you goodbye",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "price range": [
+              "moderate"
+            ],
+            "food": [
+              "dontcare"
+            ],
+            "area": [
+              "east"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 782
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "i want a cheap restaurant in the west part of town i need its address and phone number please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          },
+          "request": {
+            "slot": [
+              "phone",
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "la margherita serves cheap italian in the west area it is located at 15 magdalene street city centre phone 01223 315232",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "thank you goodbye",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 626
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "i want a cheap restaurant in the west part of town what is the address and phone number",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          },
+          "request": {
+            "slot": [
+              "phone",
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "i have found two that may work first la margherita is at 15 magdalene street city centre phone is 01223 315232 second one serves vietnamese at 17 magdalene street city centre number is 01223 362456",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "is there anything else if so give me their address and phone number",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "phone",
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "those are the only listings in the west part of town would you like to change your location or price range",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "area",
+              "price range"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "no thank you",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "is there anything else i can help you with",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "no that fine thank you",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "west"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 762
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "i looking for an expensive restaurant in the south part of town",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "south"
+            ],
+            "price range": [
+              "expensive"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "south"
+            ],
+            "price range": [
+              "expensive"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "there is a restaurant called chiquito restaurant bar",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "okay what is the next one after that and can i get the address and phone number both please",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "south"
+            ],
+            "price range": [
+              "expensive"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "phone",
+              "address"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "chicquito is located at 2 g cambridge leisure park cherry hinton road cherry hinton phone 01223 400170 and the restaurant below that is called frankie and bennys it has a phone number of 01223 412430 and address of cambridge leisure park clifton way cherry hinton",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "thank you you have been most helpful",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "south"
+            ],
+            "price range": [
+              "expensive"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 600
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "i would like a restaurant in the east part of town that serves british food",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "east"
+            ],
+            "food": [
+              "british"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "area": [
+              "east"
+            ],
+            "food": [
+              "british"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "there is one british restaurant in the east part of town called grafton hotel restaurant would you like the phone number",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {
+          "request": {
+            "slot": [
+              "phone"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "yes please along with the phone number and the post code thanks",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "east"
+            ],
+            "food": [
+              "british"
+            ]
+          }
+        },
+        "state": {
+          "request": {
+            "slot": [
+              "phone",
+              "postcode"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "it located at the grafton hotel restaurant the phone number is 01223 241387 and the postal code is 5 8",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "wonderful thank you",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "area": [
+              "east"
+            ],
+            "food": [
+              "british"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 786
+    }
+  },
+  {
+    "turns": [
+      {
+        "text": "",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "my wife thinks she likes international but i do want to take out a loan",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "international"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "food": [
+              "international"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "the missing sock serves international food and the price range is inexpensive",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "i need something cheaper than that place do you have the phone number for a cheaper place",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "international"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {
+          "inform": {
+            "price range": [
+              "cheap"
+            ]
+          },
+          "request": {
+            "slot": [
+              "phone"
+            ]
+          }
+        },
+        "meta": {}
+      },
+      {
+        "text": "unfortunately the missing sock is the only inexpensive international restaurant in my search their phone number is 01223 812660 if you would like to call to verify their prices",
+        "speaker": "wizard",
+        "goal": {},
+        "state": {},
+        "meta": {}
+      },
+      {
+        "text": "thank you goodbye",
+        "speaker": "user",
+        "goal": {
+          "inform": {
+            "food": [
+              "international"
+            ],
+            "price range": [
+              "cheap"
+            ]
+          }
+        },
+        "state": {},
+        "meta": {}
+      }
+    ],
+    "meta": {
+      "dialogue_idx": 774
+    }
+  }
+]

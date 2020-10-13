@@ -1,0 +1,51 @@
+type: vhcr
+vargs:
+  word_dim: 400
+  sent_dim: 500
+  conv_dim: 1000
+  ctx_dim: 1000
+  zsent_dim: 100
+  zconv_dim: 100
+  sent_dropout: 0.0
+  word_dropout: 0.0
+  word_encoder:
+    type: composite
+    vargs:
+      first_dim: 300
+      second_dim: 100
+      first:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: GloveEmbedding
+          default: zero
+      second:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: KazumaCharEmbedding
+          default: zero
+  seq_encoder:
+    type: self-attentional-rnn
+    vargs:
+      dropout: 0.05
+      rnn:
+        type: lstm
+        vargs:
+          dropout: 0
+          layers: 1
+          pack: true
+  sent_decoder:
+    type: rnn
+    vargs:
+      rnn_dim: 1000
+      decoding_rnn:
+        type: lstm
+        vargs:
+          dropout: 0.0
+          num_layers: 1
+  ctx_encoder:
+    type: lstm
+    vargs:
+      dropout: 0.0
+      num_layers: 1

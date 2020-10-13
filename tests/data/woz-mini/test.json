@@ -1,0 +1,2047 @@
+[
+  {
+    "dialogue_idx": 982,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "food",
+            "german"
+          ]
+        ],
+        "asr": [
+          [
+            "Any German restaurants?",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "german"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Any German restaurants?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "food",
+            "french"
+          ]
+        ],
+        "asr": [
+          [
+            "Look for French restaurants then.",
+            1.0
+          ]
+        ],
+        "system_transcript": "I'm sorry but I didn't find any German restaurants. Is there another type you would like?",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Look for French restaurants then.",
+        "system_acts": [
+          "food"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "area",
+            "north"
+          ],
+          [
+            "request",
+            "phone"
+          ]
+        ],
+        "asr": [
+          [
+            "In the north and please give me the phone number.",
+            1.0
+          ]
+        ],
+        "system_transcript": "I see two; would you be interested in centre or north?",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "In the north and please give me the phone number.",
+        "system_acts": [
+          "area"
+        ]
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Thanks.",
+            1.0
+          ]
+        ],
+        "system_transcript": "Of course. The name of the restaurant is Restaurant Two Two. They can be reached at 01223 351880.  ",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Thanks.",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "No thank you. Goodbye.",
+            1.0
+          ]
+        ],
+        "system_transcript": "Is there anything else I can help with?",
+        "turn_idx": 4,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "No thank you. Goodbye.",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 915,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "food",
+            "dontcare"
+          ],
+          [
+            "price range",
+            "moderate"
+          ]
+        ],
+        "asr": [
+          [
+            "I want something that's moderately priced. Any type of food.",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I want something that's moderately priced. Any type of food.",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "area",
+            "north"
+          ]
+        ],
+        "asr": [
+          [
+            "I would like the north part of town, please.",
+            1.0
+          ]
+        ],
+        "system_transcript": "What area would you like?",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I would like the north part of town, please.",
+        "system_acts": [
+          "area"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "phone"
+          ],
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "yes I would like their address and phone number",
+            1.0
+          ]
+        ],
+        "system_transcript": "Golden Wok serves Chinese food. Would you like their address and phone number?",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "yes I would like their address and phone number",
+        "system_acts": [
+          "address",
+          "phone"
+        ]
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "No, thank you goodbye",
+            1.0
+          ]
+        ],
+        "system_transcript": "The golden wok is located at 191 Histon Road Chesterton and their phone number is 01223 350688. May I help you with anything else? ",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "No, thank you goodbye",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 1196,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "area",
+            "south"
+          ],
+          [
+            "food",
+            "afghan"
+          ]
+        ],
+        "asr": [
+          [
+            "Are there any afghan restaurants in the south side?",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "afghan"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Are there any afghan restaurants in the south side?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "food",
+            "portuguese"
+          ]
+        ],
+        "asr": [
+          [
+            "Sure, are there are Portuguese options? ",
+            1.0
+          ]
+        ],
+        "system_transcript": "there are no afghan restaurants in the south part of town.  Would you like to try a different area or a different cuisine?",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Sure, are there are Portuguese options? ",
+        "system_acts": [
+          "area",
+          "food"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "phone"
+          ]
+        ],
+        "asr": [
+          [
+            "What is their phone?",
+            1.0
+          ]
+        ],
+        "system_transcript": "Yes, we found a portuguese restaurant named nandos located at Cambridge Leisure Park Clifton Way.",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "What is their phone?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "No, thank you!",
+            1.0
+          ]
+        ],
+        "system_transcript": "The phone number for Nandos is 01223 327908. Is there anything further I can help you with?",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "No, thank you!",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 911,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "area",
+            "west"
+          ]
+        ],
+        "asr": [
+          [
+            "Hi Can you help me find a restaurant in the west side of the city?>",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "area",
+                "west"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Hi Can you help me find a restaurant in the west side of the city?>",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "food",
+            "dontcare"
+          ],
+          [
+            "area",
+            "west"
+          ]
+        ],
+        "asr": [
+          [
+            "i dont care the type of cuisine but can you find me something in the west?",
+            1.0
+          ]
+        ],
+        "system_transcript": "What type of cuisine or price range would you prefer?",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "area",
+                "west"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "i dont care the type of cuisine but can you find me something in the west?",
+        "system_acts": [
+          "food",
+          "price range"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "phone"
+          ],
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "Ok, and the phone number and address?",
+            1.0
+          ]
+        ],
+        "system_transcript": "Meghna is a nice indian restaurant in the west part of town.",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "west"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Ok, and the phone number and address?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Ok, thank you ",
+            1.0
+          ]
+        ],
+        "system_transcript": "The phone number for Meghna is 01223 727410 and is located at 205 Victoria Road Chesterton",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "area",
+                "west"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Ok, thank you ",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 1129,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "food",
+            "persian"
+          ],
+          [
+            "price range",
+            "cheap"
+          ]
+        ],
+        "asr": [
+          [
+            "I like Persian but I'm close to broke.",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "persian"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I like Persian but I'm close to broke.",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "What is the cheapest persian food around ",
+            1.0
+          ]
+        ],
+        "system_transcript": "Sorry, we don't have any matching restaurants.",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "persian"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "What is the cheapest persian food around ",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "food",
+            "chinese"
+          ],
+          [
+            "request",
+            "phone"
+          ],
+          [
+            "request",
+            "address"
+          ],
+          [
+            "price range",
+            "cheap"
+          ]
+        ],
+        "asr": [
+          [
+            "How about the address and phone number of a cheap chinese place instead?",
+            1.0
+          ]
+        ],
+        "system_transcript": "I'm sorry, there isn't ANY Persian food around. I can suggest some inexpensive italian, chinese, asian, indian or spanish food. Does any of that sound good to you?",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "How about the address and phone number of a cheap chinese place instead?",
+        "system_acts": [
+          "food"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "area",
+            "south"
+          ],
+          [
+            "request",
+            "phone"
+          ],
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "Let me have the address and phone number for the one in the south please.",
+            1.0
+          ]
+        ],
+        "system_transcript": "I have three in the city centre and one in the south.",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Let me have the address and phone number for the one in the south please.",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "phone"
+          ]
+        ],
+        "asr": [
+          [
+            "Can I have the phone number as well?",
+            1.0
+          ]
+        ],
+        "system_transcript": "The Lucky Star #01223 244277 Cambridge Leisure Park Clifton Way Cherry Hinton.  Is there anything else I can help you with?",
+        "turn_idx": 4,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Can I have the phone number as well?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Sounds great, thank you!",
+            1.0
+          ]
+        ],
+        "system_transcript": "It is 01223 244277. Will there be anything else?",
+        "turn_idx": 5,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Sounds great, thank you!",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 876,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "area",
+            "north"
+          ],
+          [
+            "price range",
+            "moderate"
+          ]
+        ],
+        "asr": [
+          [
+            "Hello, I am looking for a moderately priced restaurant on the north side of town. ",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Hello, I am looking for a moderately priced restaurant on the north side of town. ",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "price range",
+            "moderate"
+          ],
+          [
+            "area",
+            "north"
+          ]
+        ],
+        "asr": [
+          [
+            "Yes, I am looking for a moderately priced restaurant in the north part of town. ",
+            1.0
+          ]
+        ],
+        "system_transcript": "I recommend golden wok. It is in the north part of town with a moderate price range.",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Yes, I am looking for a moderately priced restaurant in the north part of town. ",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "I don't want Golden Wok, is there anything else?",
+            1.0
+          ]
+        ],
+        "system_transcript": "I recommend golden wok. It is in the north part of town with a moderate price range.",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I don't want Golden Wok, is there anything else?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "phone"
+          ]
+        ],
+        "asr": [
+          [
+            "Okay. What is their phone number?",
+            1.0
+          ]
+        ],
+        "system_transcript": "Yes, your other option is The Nirala. It serves Indian food and is also located in the north part of town.",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Okay. What is their phone number?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Thank you.  Goodbye.",
+            1.0
+          ]
+        ],
+        "system_transcript": "The phone number is 01223 360966.",
+        "turn_idx": 4,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "price range",
+                "moderate"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "north"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Thank you.  Goodbye.",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 969,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "area",
+            "south"
+          ],
+          [
+            "price range",
+            "cheap"
+          ],
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "Hello. Can you help me find the address of an inexpensive restaurant in the south part of town?",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Hello. Can you help me find the address of an inexpensive restaurant in the south part of town?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "food",
+            "chinese"
+          ]
+        ],
+        "asr": [
+          [
+            "Chinese food",
+            1.0
+          ]
+        ],
+        "system_transcript": "There are two restaurants that are in the cheap price range and in the south part of town. Would you like Portuguese or Chinese food?",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Chinese food",
+        "system_acts": [
+          "food"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "no, just the address please ",
+            1.0
+          ]
+        ],
+        "system_transcript": "The lucky star is chinese.  would you like the phone number?",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "no, just the address please ",
+        "system_acts": [
+          "phone"
+        ]
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Thank you, goodbye.",
+            1.0
+          ]
+        ],
+        "system_transcript": "The Lucky Star is located at Cambridge Leisure Park Clifton Way Cherry Hinton.",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "chinese"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "cheap"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "south"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Thank you, goodbye.",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 1019,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "food",
+            "australian"
+          ],
+          [
+            "price range",
+            "expensive"
+          ],
+          [
+            "request",
+            "phone"
+          ]
+        ],
+        "asr": [
+          [
+            "I'm looking for an expensive Aussie place.  What's a number?",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "australian"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "expensive"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I'm looking for an expensive Aussie place.  What's a number?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "food",
+            "french"
+          ]
+        ],
+        "asr": [
+          [
+            "How about French food? ",
+            1.0
+          ]
+        ],
+        "system_transcript": "I'm sorry, there is no restaurant that serves Australian food in the area.",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "expensive"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "How about French food? ",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "area",
+            "east"
+          ],
+          [
+            "request",
+            "phone"
+          ]
+        ],
+        "asr": [
+          [
+            "I need a phone number for one in the east side.",
+            1.0
+          ]
+        ],
+        "system_transcript": "I found two restaurants matching your requirements. Do you have a preference for the area?",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "east"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "expensive"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I need a phone number for one in the east side.",
+        "system_acts": [
+          "area"
+        ]
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "phone"
+          ],
+          [
+            "request",
+            "name"
+          ]
+        ],
+        "asr": [
+          [
+            "Can I get the name and phone number of both that you have listed?",
+            1.0
+          ]
+        ],
+        "system_transcript": "I do not have an option for the East side.",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "slot",
+                "name"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "east"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "expensive"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Can I get the name and phone number of both that you have listed?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Fabulous!  You have made my day, no my week, no my month  Wait wait, you have made my year.",
+            1.0
+          ]
+        ],
+        "system_transcript": "cote phone number is 01223 311053. restaurant two two phone number is 01223 351880.",
+        "turn_idx": 4,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "east"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "expensive"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Fabulous!  You have made my day, no my week, no my month  Wait wait, you have made my year.",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "area",
+            "east side"
+          ]
+        ],
+        "asr": [
+          [
+            "Nope, I'm all set. Thanks and bye for now.",
+            1.0
+          ]
+        ],
+        "system_transcript": "You are too kind. Is there anything else I can do for you?",
+        "turn_idx": 5,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "french"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "price range",
+                "expensive"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "east side"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Nope, I'm all set. Thanks and bye for now.",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 1128,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "food",
+            "portuguese"
+          ]
+        ],
+        "asr": [
+          [
+            "I would like a restaurant that serves portuguese food",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I would like a restaurant that serves portuguese food",
+        "system_acts": []
+      },
+      {
+        "turn_label": [
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "what is their address",
+            1.0
+          ]
+        ],
+        "system_transcript": "Nandos is a Portuguese restaurant, it is in the cheap price range, and is on the south part of town. Would you like the phone number?",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "what is their address",
+        "system_acts": [
+          "phone"
+        ]
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Thank you goodbye. ",
+            1.0
+          ]
+        ],
+        "system_transcript": "Cambridge Leisure Park Clifton Way. Can I help you with anything else?",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Thank you goodbye. ",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "That is all I need. No further questions.",
+            1.0
+          ]
+        ],
+        "system_transcript": "You're welcome. Good bye.",
+        "turn_idx": 3,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "portuguese"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "That is all I need. No further questions.",
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialogue_idx": 806,
+    "dialogue": [
+      {
+        "turn_label": [
+          [
+            "area",
+            "dontcare"
+          ],
+          [
+            "food",
+            "spanish"
+          ],
+          [
+            "request",
+            "phone"
+          ],
+          [
+            "request",
+            "address"
+          ]
+        ],
+        "asr": [
+          [
+            "I want to find a restaurant in any area and serves spanish food. What is the phone number and address?",
+            1.0
+          ]
+        ],
+        "system_transcript": "",
+        "turn_idx": 0,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "slot",
+                "phone"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "slot",
+                "address"
+              ]
+            ],
+            "act": "request"
+          },
+          {
+            "slots": [
+              [
+                "food",
+                "spanish"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "I want to find a restaurant in any area and serves spanish food. What is the phone number and address?",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Thanks, goodbye.",
+            1.0
+          ]
+        ],
+        "system_transcript": "La Raza serves cheap spanish food, located in the centre area at 4 - 6 Rose Crescent with phone number 01223 464550",
+        "turn_idx": 1,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "spanish"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Thanks, goodbye.",
+        "system_acts": []
+      },
+      {
+        "turn_label": [],
+        "asr": [
+          [
+            "Goodbye ",
+            1.0
+          ]
+        ],
+        "system_transcript": "You're welcome. Goodbye.",
+        "turn_idx": 2,
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "food",
+                "spanish"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "area",
+                "dontcare"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "transcript": "Goodbye ",
+        "system_acts": []
+      }
+    ]
+  }
+]

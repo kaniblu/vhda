@@ -1,0 +1,51 @@
+type: generic
+vargs:
+  word_dim: 700
+  hidden_dim: 400
+  word_encoder:
+    type: composite
+    vargs:
+      first_dim: 300
+      second_dim: 400
+      first:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: GloveEmbedding
+          default: zero
+      second:
+        type: composite
+        vargs:
+          first_dim: 300
+          second_dim: 100
+          first:
+            type: fasttext
+            vargs:
+              freeze: true
+              fasttext_path: third_party/fasttext/fasttext  # compile this first
+              model_path: /home/kani/datasets/fasttext/cc.en.300.bin  # download and specify model_path
+          second:
+            type: vzhong-embeddings
+            vargs:
+              freeze: true
+              cls_name: KazumaCharEmbedding
+              default: zero
+  dst_encoder:
+    type: gce
+    vargs:
+      dropout: 0.2
+      token_dim: 300
+      act_slot_dim: 100
+      token_encoder:
+        type: vzhong-embeddings
+        vargs:
+          freeze: true
+          cls_name: GloveEmbedding
+          default: zero
+      base_rnn: &rnn
+        type: bilstm
+        vargs:
+          num_layers: 1
+          pack: true
+          dropout: 0.0
+      act_slot_rnn: *rnn

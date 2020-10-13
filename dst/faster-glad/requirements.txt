@@ -1,0 +1,8 @@
+protobuf==3.9.1
+requests==2.22.0
+stanza==0.3
+tqdm==4.35.0
+vocab==0.0.3
+embeddings==0.0.4
+torch==1.1.0
+numpy==1.17.1

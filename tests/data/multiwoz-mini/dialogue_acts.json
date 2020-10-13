@@ -1,0 +1,3333 @@
+{
+  "SNG02134": {
+    "1": {
+      "Taxi-Request": [
+        [
+          "Depart",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Taxi-Request": [
+        [
+          "Dest",
+          "?"
+        ]
+      ]
+    },
+    "4": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Taxi-Inform": [
+        [
+          "Car",
+          "black volvo"
+        ],
+        [
+          "Phone",
+          "07025112262"
+        ]
+      ]
+    }
+  },
+  "MUL0166": {
+    "1": {
+      "Restaurant-Request": [
+        [
+          "Price",
+          "?"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "9"
+        ]
+      ]
+    },
+    "5": {
+      "Hotel-Inform": [
+        [
+          "Addr",
+          "sleeperz hotel"
+        ],
+        [
+          "Addr",
+          " station road"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "Hotel-Inform": [
+        [
+          "Name",
+          "Cityroomz"
+        ],
+        [
+          "Price",
+          "moderate"
+        ],
+        [
+          "Area",
+          "centre of town"
+        ]
+      ]
+    },
+    "6": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "four"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Inform": [
+        [
+          "Name",
+          "Caffe Uno"
+        ],
+        [
+          "Addr",
+          "32 Bridge Street City Centre"
+        ]
+      ]
+    }
+  },
+  "MUL1453": {
+    "1": {
+      "Restaurant-Select": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Price",
+          "moderately priced"
+        ],
+        [
+          "Price",
+          " cheap"
+        ],
+        [
+          "Choice",
+          "two"
+        ],
+        [
+          "Name",
+          "La Tasca"
+        ],
+        [
+          "Name",
+          " La Raza"
+        ]
+      ]
+    },
+    "6": {
+      "Train-OfferBooked": [
+        [
+          "Ticket",
+          "140.8 pounds"
+        ],
+        [
+          "Ref",
+          "HYPRVMOQ"
+        ],
+        [
+          "People",
+          "8"
+        ]
+      ]
+    },
+    "5": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "09:55"
+        ],
+        [
+          "Choice",
+          "a few"
+        ],
+        [
+          "Id",
+          "TR0627"
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Booking-Book": [
+        [
+          "Time",
+          "10:15"
+        ],
+        [
+          "Ref",
+          "LPYDMTDI"
+        ]
+      ]
+    },
+    "7": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Booking-Request": [
+        [
+          "Time",
+          "?"
+        ]
+      ]
+    },
+    "3": {
+      "Booking-NoBook": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Booking-Request": [
+        [
+          "Time",
+          "?"
+        ],
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    }
+  },
+  "MUL2522": {
+    "1": {
+      "Attraction-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Area",
+          "in town"
+        ],
+        [
+          "Choice",
+          "four "
+        ]
+      ]
+    },
+    "6": {
+      "Booking-Request": [
+        [
+          "Day",
+          "?"
+        ],
+        [
+          "Time",
+          "?"
+        ]
+      ]
+    },
+    "9": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Booking-Inform": [
+        [
+          "Name",
+          "Bridge Guest House"
+        ]
+      ]
+    },
+    "4": {
+      "Hotel-Inform": [
+        [
+          "Internet",
+          "none"
+        ],
+        [
+          "Parking",
+          "none"
+        ],
+        [
+          "Choice",
+          "2"
+        ],
+        [
+          "Name",
+          "The Bridge"
+        ],
+        [
+          "Name",
+          " Lensfeild"
+        ],
+        [
+          "Price",
+          "moderately priced"
+        ],
+        [
+          "Price",
+          " expensive"
+        ],
+        [
+          "Area",
+          "South "
+        ]
+      ]
+    },
+    "7": {
+      "Hotel-Inform": [
+        [
+          "Parking",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Attraction-Recommend": [
+        [
+          "Area",
+          "centre of town"
+        ],
+        [
+          "Phone",
+          "01223446100"
+        ],
+        [
+          "Addr",
+          " gonville place"
+        ],
+        [
+          "Name",
+          "parkside pools"
+        ]
+      ]
+    },
+    "8": {
+      "Hotel-Inform": [
+        [
+          "Internet",
+          "none"
+        ]
+      ]
+    },
+    "3": "No Annotation"
+  },
+  "PMUL4438": {
+    "1": {
+      "Train-Inform": [
+        [
+          "Choice",
+          "Several"
+        ]
+      ],
+      "Train-Request": [
+        [
+          "Depart",
+          "?"
+        ]
+      ]
+    },
+    "6": {
+      "Booking-Book": [
+        [
+          "Ref",
+          "YP33ONP5"
+        ]
+      ]
+    },
+    "5": {
+      "Booking-Request": [
+        [
+          "Time",
+          "?"
+        ]
+      ]
+    },
+    "4": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Phone",
+          "01223518111"
+        ],
+        [
+          "Area",
+          "city centre"
+        ],
+        [
+          "Food",
+          "Asian oriental"
+        ],
+        [
+          "Price",
+          "moderately priced"
+        ]
+      ]
+    },
+    "7": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "16:52"
+        ],
+        [
+          "Leave",
+          "16:24"
+        ],
+        [
+          "Id",
+          "TR9390"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Train-OfferBooked": [
+        [
+          "Ref",
+          "3YRAS11J"
+        ],
+        [
+          "People",
+          "8"
+        ]
+      ]
+    }
+  },
+  "MUL0028": {
+    "1": {
+      "Hotel-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Choice",
+          "10"
+        ],
+        [
+          "Type",
+          "hotel"
+        ]
+      ]
+    },
+    "6": {
+      "Restaurant-Request": [
+        [
+          "Price",
+          "?"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Food",
+          "Italian"
+        ],
+        [
+          "Choice",
+          "9"
+        ]
+      ]
+    },
+    "5": {
+      "Restaurant-Request": [
+        [
+          "Food",
+          "?"
+        ]
+      ],
+      "Restaurant-NoOffer": [
+        [
+          "Food",
+          "American "
+        ]
+      ]
+    },
+    "4": {
+      "Booking-Book": [
+        [
+          "Ref",
+          "NZXPP6O5"
+        ]
+      ]
+    },
+    "7": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Booking-Book": [
+        [
+          "Name",
+          "Zizzi Cambridge"
+        ],
+        [
+          "Ref",
+          "BRX4ES4L"
+        ]
+      ]
+    },
+    "2": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Name",
+          "The Alexander Bed and Breakfast "
+        ],
+        [
+          "Stars",
+          "four"
+        ]
+      ]
+    },
+    "8": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Hotel-Inform": [
+        [
+          "Addr",
+          "56 saint barnabas road"
+        ],
+        [
+          "Stars",
+          "4"
+        ],
+        [
+          "Phone",
+          "01223525725"
+        ],
+        [
+          "Type",
+          "hotel"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "PMUL3489": {
+    "1": {
+      "Hotel-Inform": [
+        [
+          "Area",
+          "centre of town"
+        ],
+        [
+          "Name",
+          "Alexander bed and breakfast"
+        ],
+        [
+          "Price",
+          "cheap"
+        ]
+      ]
+    },
+    "2": {
+      "Hotel-Inform": [
+        [
+          "Name",
+          "the Alexander"
+        ],
+        [
+          "Internet",
+          "none"
+        ],
+        [
+          "Stars",
+          "4"
+        ]
+      ],
+      "Booking-Request": [
+        [
+          "Stay",
+          "?"
+        ]
+      ]
+    },
+    "5": {
+      "Train-Inform": [
+        [
+          "Day",
+          "Sunday"
+        ],
+        [
+          "Choice",
+          "19"
+        ],
+        [
+          "Depart",
+          "Cambridge"
+        ]
+      ],
+      "Train-Request": [
+        [
+          "Leave",
+          "?"
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Booking-Book": [
+        [
+          "Ref",
+          "QIT1W09H"
+        ]
+      ]
+    },
+    "3": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Booking-Request": [
+        [
+          "People",
+          "?"
+        ]
+      ]
+    }
+  },
+  "PMUL2260": {
+    "1": {
+      "Restaurant-Request": [
+        [
+          "Name",
+          "?"
+        ]
+      ]
+    },
+    "6": {
+      "Attraction-NoOffer": [
+        [
+          "Type",
+          "entertainment "
+        ]
+      ]
+    },
+    "9": {
+      "Taxi-Inform": [
+        [
+          "Car",
+          "black audi"
+        ],
+        [
+          "Phone",
+          "07911435802"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Attraction-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Post",
+          "cb11bg"
+        ],
+        [
+          "Phone",
+          "01223302010"
+        ],
+        [
+          "Name",
+          "Cotto "
+        ]
+      ]
+    },
+    "7": {
+      "Attraction-Recommend": [
+        [
+          "Name",
+          "Christ's college"
+        ],
+        [
+          "Area",
+          "centre of town"
+        ]
+      ]
+    },
+    "10": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "8": {
+      "Attraction-Inform": [
+        [
+          "Phone",
+          "01223334900"
+        ],
+        [
+          "Fee",
+          "free "
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-Request": [
+        [
+          "Food",
+          "?"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "many "
+        ],
+        [
+          "Price",
+          "moderately priced "
+        ]
+      ]
+    },
+    "3": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Recommend": [
+        [
+          "Food",
+          "british "
+        ],
+        [
+          "Name",
+          "cotto "
+        ]
+      ]
+    }
+  },
+  "MUL2432": {
+    "1": {
+      "Attraction-Inform": [
+        [
+          "Name",
+          "Scudamores Punting Co"
+        ],
+        [
+          "Name",
+          " The Cambridge Punter"
+        ],
+        [
+          "Choice",
+          "two "
+        ]
+      ]
+    },
+    "6": {
+      "Taxi-Request": [
+        [
+          "Arrive",
+          "?"
+        ],
+        [
+          "Leave",
+          "?"
+        ]
+      ]
+    },
+    "9": {
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Restaurant-Recommend": [
+        [
+          "Name",
+          "Eraina"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "three "
+        ],
+        [
+          "Post",
+          "cb23rh"
+        ],
+        [
+          "Phone",
+          "01223368786 "
+        ]
+      ]
+    },
+    "4": {
+      "Restaurant-Recommend": [
+        [
+          "Name",
+          "the bedouin"
+        ],
+        [
+          "Food",
+          "african "
+        ],
+        [
+          "Price",
+          "expensive "
+        ],
+        [
+          "Area",
+          "centre "
+        ]
+      ]
+    },
+    "7": {
+      "Taxi-Request": [
+        [
+          "Depart",
+          "?"
+        ],
+        [
+          "Dest",
+          "?"
+        ],
+        [
+          "Leave",
+          "?"
+        ]
+      ]
+    },
+    "10": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "8": {
+      "Taxi-Inform": [
+        [
+          "Phone",
+          "07805205510"
+        ],
+        [
+          "Car",
+          "yellow Toyota"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Attraction-Inform": [
+        [
+          "Name",
+          "Scudamores"
+        ],
+        [
+          "Name",
+          " The Cambridge Punter"
+        ],
+        [
+          "Choice",
+          "Both "
+        ],
+        [
+          "Addr",
+          "granta place"
+        ],
+        [
+          "Addr",
+          " Chesterton Road"
+        ],
+        [
+          "Area",
+          "centre"
+        ]
+      ]
+    },
+    "3": {
+      "Attraction-Inform": [
+        [
+          "Phone",
+          "01223359750"
+        ],
+        [
+          "Phone",
+          " 07807718591"
+        ],
+        [
+          "Name",
+          "The scudamores punting co"
+        ],
+        [
+          "Name",
+          " The cambridge punter "
+        ],
+        [
+          "Fee",
+          "No entrance fee information listed"
+        ],
+        [
+          "Addr",
+          "granta place"
+        ],
+        [
+          "Addr",
+          " mill lane"
+        ],
+        [
+          "Addr",
+          " 251a chesterton road"
+        ]
+      ]
+    }
+  },
+  "SNG0304": {
+    "1": {
+      "Train-Request": [
+        [
+          "Depart",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "07:51"
+        ],
+        [
+          "Leave",
+          "07:00"
+        ],
+        [
+          "Id",
+          "TR3207"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Train-OfferBooked": [
+        [
+          "Ref",
+          "BAAL6J4H"
+        ],
+        [
+          "Ticket",
+          "113.28 GBP"
+        ],
+        [
+          "Id",
+          "TR3207"
+        ]
+      ]
+    }
+  },
+  "MUL0039": {
+    "1": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Name",
+          "the Cambridge Belfry"
+        ],
+        [
+          "Price",
+          "cheap"
+        ],
+        [
+          "Type",
+          "hotel"
+        ],
+        [
+          "Stars",
+          "4"
+        ]
+      ]
+    },
+    "6": {
+      "Restaurant-Inform": [
+        [
+          "Post",
+          "cb58jj"
+        ],
+        [
+          "Addr",
+          "451 Newmarket Road Fen Ditton"
+        ],
+        [
+          "Phone",
+          "01223566388"
+        ],
+        [
+          "Name",
+          "The Curry Prince"
+        ]
+      ]
+    },
+    "9": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Name",
+          "Curry Prince"
+        ],
+        [
+          "Name",
+          " Pipasha Restaurant"
+        ],
+        [
+          "Name",
+          " Rajmahal"
+        ],
+        [
+          "Name",
+          " Sitar Tandoori"
+        ]
+      ]
+    },
+    "4": {
+      "Restaurant-Request": [
+        [
+          "Price",
+          "?"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "four"
+        ]
+      ]
+    },
+    "7": {
+      "Restaurant-Inform": [
+        [
+          "Price",
+          "moderate"
+        ]
+      ]
+    },
+    "2": {
+      "Hotel-Inform": [
+        [
+          "Parking",
+          "none"
+        ]
+      ]
+    },
+    "8": {
+      "Taxi-Inform": [
+        [
+          "Phone",
+          "07768403851"
+        ],
+        [
+          "Car",
+          "Blue Audi"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Hotel-Inform": [
+        [
+          "Phone",
+          "01954714600"
+        ],
+        [
+          "Internet",
+          "none"
+        ]
+      ]
+    }
+  },
+  "PMUL1777": {
+    "11": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Name",
+          "Bridge guest house"
+        ]
+      ]
+    },
+    "2": {
+      "Train-Inform": [
+        [
+          "Leave",
+          "13:29"
+        ],
+        [
+          "Id",
+          "TR0927"
+        ]
+      ],
+      "Train-Select": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "Hotel-Request": [
+        [
+          "Price",
+          "?"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Type",
+          "hotels"
+        ],
+        [
+          "Choice",
+          "6"
+        ],
+        [
+          "Stars",
+          "three"
+        ]
+      ]
+    },
+    "14": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "1": {
+      "Train-Request": [
+        [
+          "Dest",
+          "?"
+        ]
+      ]
+    },
+    "12": {
+      "Booking-Inform": [
+        [
+          "Stay",
+          "3"
+        ],
+        [
+          "Stay",
+          " 1"
+        ],
+        [
+          "People",
+          "6"
+        ],
+        [
+          "People",
+          " 1"
+        ]
+      ]
+    },
+    "10": {
+      "Booking-Request": [
+        [
+          "People",
+          "?"
+        ],
+        [
+          "Stay",
+          "?"
+        ]
+      ]
+    },
+    "5": {
+      "Hotel-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ]
+    },
+    "6": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Area",
+          "centre of town"
+        ],
+        [
+          "Price",
+          "expensive"
+        ],
+        [
+          "Name",
+          "The gonville hotel"
+        ]
+      ]
+    },
+    "7": {
+      "Train-Inform": [
+        [
+          "Id",
+          "TR0927"
+        ],
+        [
+          "Arrive",
+          "14:07"
+        ],
+        [
+          "Leave",
+          "13:29"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "15": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "13": {
+      "Booking-Book": [
+        [
+          "Ref",
+          "3HUEDEZP"
+        ]
+      ]
+    },
+    "9": {
+      "Hotel-Select": [
+        [
+          "Area",
+          "north"
+        ],
+        [
+          "Area",
+          " south"
+        ],
+        [
+          "Area",
+          " west"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Parking",
+          "none"
+        ],
+        [
+          "Internet",
+          "none"
+        ],
+        [
+          "Choice",
+          "three"
+        ],
+        [
+          "Choice",
+          " All"
+        ],
+        [
+          "Stars",
+          "3"
+        ],
+        [
+          "Type",
+          "guesthouses"
+        ]
+      ]
+    },
+    "8": {
+      "Train-Inform": [
+        [
+          "Ticket",
+          "10.10 pounds"
+        ],
+        [
+          "Id",
+          "TR0927"
+        ]
+      ]
+    }
+  },
+  "MUL0936": {
+    "1": {
+      "Attraction-Select": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Fee",
+          "free"
+        ],
+        [
+          "Name",
+          "Old Schools"
+        ],
+        [
+          "Post",
+          "cb21tt"
+        ],
+        [
+          "Addr",
+          "Trinity Ln"
+        ]
+      ]
+    },
+    "2": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "Restaurant-Inform": [
+        [
+          "Post",
+          "cb23nj"
+        ],
+        [
+          "Addr",
+          "12 Market Hill City Centre"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Inform": [
+        [
+          "Food",
+          "Italian food "
+        ],
+        [
+          "Area",
+          "centre of town"
+        ],
+        [
+          "Price",
+          "expensive price range"
+        ]
+      ]
+    }
+  },
+  "PMUL2262": {
+    "1": {
+      "Attraction-Request": [
+        [
+          "Type",
+          "?"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Area",
+          "centre"
+        ],
+        [
+          "Type",
+          "museums"
+        ],
+        [
+          "Type",
+          " architecture"
+        ],
+        [
+          "Type",
+          " theatre"
+        ],
+        [
+          "Choice",
+          "a lot"
+        ]
+      ]
+    },
+    "5": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Recommend": [
+        [
+          "Name",
+          "cambridge chop house"
+        ],
+        [
+          "Food",
+          "british "
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Phone",
+          "01223314960"
+        ]
+      ]
+    },
+    "6": {
+      "Attraction-Inform": [
+        [
+          "Price",
+          "expensive "
+        ]
+      ]
+    },
+    "2": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Type",
+          "museums "
+        ],
+        [
+          "Choice",
+          "11"
+        ],
+        [
+          "Area",
+          "centre"
+        ]
+      ]
+    },
+    "3": {
+      "Attraction-Recommend": [
+        [
+          "Name",
+          "Broughton House Gallery"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Addr",
+          "98 king street"
+        ],
+        [
+          "Fee",
+          "free"
+        ]
+      ]
+    }
+  },
+  "SNG0462": {
+    "1": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Food",
+          "Indian"
+        ],
+        [
+          "Price",
+          "cheap"
+        ],
+        [
+          "Area",
+          "in the north"
+        ],
+        [
+          "Addr",
+          "Victoria Avenue Chesteron cb41eh"
+        ],
+        [
+          "Phone",
+          "01733553355"
+        ]
+      ]
+    },
+    "2": {
+      "Booking-Book": [
+        [
+          "People",
+          "2"
+        ],
+        [
+          "Day",
+          "Wednesday"
+        ],
+        [
+          "Time",
+          "17:15"
+        ],
+        [
+          "Ref",
+          "GXO64LG8"
+        ]
+      ]
+    },
+    "3": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "SSNG0162": {
+    "1": {
+      "Restaurant-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ],
+      "Restaurant-NoOffer": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "6": {
+      "Booking-Book": [
+        [
+          "Ref",
+          "G4T03ZZ7"
+        ],
+        [
+          "Name",
+          "don pasquale pizzeria"
+        ]
+      ]
+    },
+    "5": {
+      "Booking-NoBook": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "Booking-Inform": [
+        [
+          "People",
+          "6"
+        ],
+        [
+          "Name",
+          "Stazione Restaurant and Coffee Bar"
+        ],
+        [
+          "Time",
+          "18:45"
+        ],
+        [
+          "Day",
+          "Wednesday "
+        ]
+      ]
+    },
+    "7": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-Recommend": [
+        [
+          "Name",
+          "La Mimosa"
+        ],
+        [
+          "Food",
+          "Mediterranean"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "quite a few"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Request": [
+        [
+          "Food",
+          "?"
+        ]
+      ],
+      "Restaurant-NoOffer": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "MUL1266": {
+    "11": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "a lot of"
+        ],
+        [
+          "Price",
+          "moderately priced"
+        ],
+        [
+          "Area",
+          "centre"
+        ],
+        [
+          "Food",
+          "british"
+        ]
+      ]
+    },
+    "4": {
+      "Restaurant-Inform": [
+        [
+          "Post",
+          "cb21ab"
+        ],
+        [
+          "Phone",
+          "01223337766"
+        ],
+        [
+          "Addr",
+          "De Vere University Arms Regent Street City Centre"
+        ]
+      ]
+    },
+    "8": {
+      "Hotel-Inform": [
+        [
+          "Name",
+          "Alexander Bed and Breakfast"
+        ],
+        [
+          "Internet",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Name",
+          "Restaurant one seven"
+        ]
+      ]
+    },
+    "1": {
+      "Restaurant-NoOffer": [
+        [
+          "Area",
+          "centre"
+        ]
+      ]
+    },
+    "6": {
+      "Hotel-Inform": [
+        [
+          "Area",
+          "centre"
+        ],
+        [
+          "Price",
+          "very affordable"
+        ],
+        [
+          "Stars",
+          "4"
+        ],
+        [
+          "Name",
+          "Alexander Bed & Breakfast"
+        ]
+      ]
+    },
+    "10": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Hotel-Request": [
+        [
+          "Area",
+          "?"
+        ],
+        [
+          "Parking",
+          "?"
+        ],
+        [
+          "Internet",
+          "?"
+        ]
+      ]
+    },
+    "7": {
+      "Hotel-NoOffer": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "9": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Addr",
+          "56 saint Barnabas road"
+        ],
+        [
+          "Post",
+          "Cb12de"
+        ],
+        [
+          "Phone",
+          "01223525725"
+        ]
+      ]
+    },
+    "12": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "PMUL1602": {
+    "1": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Area",
+          "west side of town"
+        ],
+        [
+          "Name",
+          "The Cambridge Belfry"
+        ],
+        [
+          "Internet",
+          "none"
+        ],
+        [
+          "Choice",
+          "only "
+        ],
+        [
+          "Addr",
+          "back lane"
+        ],
+        [
+          "Addr",
+          " cambourne"
+        ],
+        [
+          "Price",
+          "cheap "
+        ],
+        [
+          "Type",
+          "hotel "
+        ]
+      ]
+    },
+    "2": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Stars",
+          "four "
+        ]
+      ]
+    },
+    "4": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Hotel-Inform": [
+        [
+          "Addr",
+          "Back Lane"
+        ],
+        [
+          "Addr",
+          " Cambourne"
+        ],
+        [
+          "Name",
+          "The Cambridge Belfry"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "SNG01950": {
+    "1": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": "No Annotation",
+    "5": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "PMUL2952": {
+    "1": {
+      "Attraction-Inform": [
+        [
+          "Name",
+          "the Soul Tree Nightclub"
+        ]
+      ]
+    },
+    "6": {
+      "Hotel-Select": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Area",
+          "the West"
+        ],
+        [
+          "Area",
+          " the Centre"
+        ],
+        [
+          "Choice",
+          "2"
+        ],
+        [
+          "Choice",
+          " one"
+        ]
+      ]
+    },
+    "9": {
+      "Booking-Book": [
+        [
+          "Ref",
+          "VY2L76MY"
+        ]
+      ]
+    },
+    "5": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Phone",
+          "01223477900"
+        ]
+      ]
+    },
+    "4": "No Annotation",
+    "7": {
+      "Hotel-Recommend": [
+        [
+          "Name",
+          "the cambridge belfry"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Choice",
+          "two "
+        ],
+        [
+          "Area",
+          "the west"
+        ]
+      ],
+      "Booking-Request": [
+        [
+          "People",
+          "?"
+        ],
+        [
+          "Stay",
+          "?"
+        ],
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    },
+    "10": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "8": {
+      "Booking-Request": [
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Attraction-Inform": [
+        [
+          "Phone",
+          "01223477900"
+        ],
+        [
+          "Addr",
+          "1-6 exchange street"
+        ]
+      ]
+    },
+    "3": {
+      "Attraction-Inform": [
+        [
+          "Fee",
+          "4"
+        ]
+      ]
+    }
+  },
+  "SNG0329": {
+    "1": {
+      "Train-Request": [
+        [
+          "Dest",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Train-Inform": [
+        [
+          "Leave",
+          "12:09"
+        ],
+        [
+          "Id",
+          "TR7248"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Train-Inform": [
+        [
+          "Ticket",
+          "30.24 pounds"
+        ],
+        [
+          "Dest",
+          "Cambridge"
+        ],
+        [
+          "Arrive",
+          "13:54"
+        ]
+      ]
+    }
+  },
+  "MUL0267": {
+    "1": {
+      "Restaurant-NoOffer": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "6": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "08:58"
+        ],
+        [
+          "Dest",
+          "Cambridge"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Train-Inform": [
+        [
+          "Day",
+          "friday"
+        ],
+        [
+          "Choice",
+          "19"
+        ],
+        [
+          "Depart",
+          "kings lynn"
+        ]
+      ],
+      "Train-Request": [
+        [
+          "Dest",
+          "?"
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Name",
+          "Zizzi"
+        ],
+        [
+          "Addr",
+          "47-53 Regent Street"
+        ]
+      ]
+    },
+    "7": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Train-OfferBooked": [
+        [
+          "Ref",
+          "S080H7HT"
+        ],
+        [
+          "Ticket",
+          "58.8 GBP"
+        ],
+        [
+          "Id",
+          "TR4758"
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-NoOffer": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "8": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Request": [
+        [
+          "Price",
+          "?"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "9"
+        ],
+        [
+          "Food",
+          "Italian "
+        ],
+        [
+          "Area",
+          "centrally located"
+        ]
+      ]
+    }
+  },
+  "PMUL2086": {
+    "1": "No Annotation",
+    "6": "No Annotation",
+    "10": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Restaurant-Select": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "4"
+        ],
+        [
+          "Name",
+          "Ugly Duckling"
+        ],
+        [
+          "Name",
+          " Tang Chinese"
+        ],
+        [
+          "Name",
+          " HK Fusion"
+        ],
+        [
+          "Name",
+          " Sesame Restaurant and Bar"
+        ]
+      ]
+    },
+    "4": {
+      "Restaurant-Inform": [
+        [
+          "Area",
+          "that area"
+        ],
+        [
+          "Choice",
+          "10"
+        ]
+      ]
+    },
+    "7": {
+      "Taxi-Request": [
+        [
+          "Depart",
+          "?"
+        ],
+        [
+          "Dest",
+          "?"
+        ],
+        [
+          "Arrive",
+          "?"
+        ],
+        [
+          "Leave",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Attraction-Inform": [
+        [
+          "Name",
+          "Riverboat georgina"
+        ],
+        [
+          "Type",
+          "boat"
+        ]
+      ]
+    },
+    "8": {
+      "Taxi-Request": [
+        [
+          "Dest",
+          "?"
+        ]
+      ]
+    },
+    "9": {
+      "Taxi-Inform": [
+        [
+          "Car",
+          "yellow Ford"
+        ],
+        [
+          "Phone",
+          "07130797205"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Attraction-Inform": [
+        [
+          "Post",
+          "cb43ax"
+        ],
+        [
+          "Area",
+          "north "
+        ]
+      ]
+    }
+  },
+  "MUL0007": {
+    "1": {
+      "Taxi-Request": [
+        [
+          "Leave",
+          "?"
+        ]
+      ]
+    },
+    "6": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Taxi-Inform": [
+        [
+          "Dest",
+          "sesame restaurant and bar"
+        ],
+        [
+          "Car",
+          "red volkswagen"
+        ],
+        [
+          "Depart",
+          "acorn guest house"
+        ],
+        [
+          "Phone",
+          "07193707133"
+        ]
+      ]
+    },
+    "4": {
+      "Restaurant-Inform": [
+        [
+          "Post",
+          "cb21nw17"
+        ],
+        [
+          "Phone",
+          "01223358899"
+        ],
+        [
+          "Name",
+          "sesame restaurant and bar"
+        ],
+        [
+          "Addr",
+          "Hills Road City Centre"
+        ],
+        [
+          "Area",
+          "centre area"
+        ],
+        [
+          "Food",
+          "Chinese"
+        ]
+      ]
+    },
+    "7": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Hotel-Inform": [
+        [
+          "Name",
+          "Acorn Guest House"
+        ],
+        [
+          "Area",
+          "north"
+        ],
+        [
+          "Stars",
+          "4"
+        ]
+      ]
+    },
+    "3": {
+      "Hotel-Inform": [
+        [
+          "Post",
+          "cb41da"
+        ],
+        [
+          "Phone",
+          "01223353888"
+        ],
+        [
+          "Name",
+          "Acorn Guest House"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    }
+  },
+  "PMUL4171": {
+    "11": {
+      "Train-Request": [
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "three "
+        ],
+        [
+          "Food",
+          "Mediterranean "
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "three "
+        ]
+      ]
+    },
+    "8": {
+      "Train-Request": [
+        [
+          "Leave",
+          "?"
+        ],
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Request": [
+        [
+          "Food",
+          "?"
+        ]
+      ],
+      "Restaurant-NoOffer": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "1": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "6": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Booking-Book": [
+        [
+          "Ref",
+          "K8YAC7SK"
+        ]
+      ]
+    },
+    "10": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "08:23"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Restaurant-Recommend": [
+        [
+          "Name",
+          "gardenia"
+        ]
+      ]
+    },
+    "7": {
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Train-Request": [
+        [
+          "Depart",
+          "?"
+        ]
+      ]
+    },
+    "13": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "9": {
+      "Train-Inform": [
+        [
+          "Choice",
+          "first "
+        ],
+        [
+          "Leave",
+          "5:40"
+        ]
+      ]
+    },
+    "12": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Train-OfferBooked": [
+        [
+          "Ref",
+          "5DPBKIY1"
+        ],
+        [
+          "Arrive",
+          "08:23"
+        ],
+        [
+          "Dest",
+          "Cambridge "
+        ],
+        [
+          "Id",
+          "TR3888 "
+        ],
+        [
+          "People",
+          "two"
+        ]
+      ]
+    }
+  },
+  "SNG0825": {
+    "1": {
+      "Hotel-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Choice",
+          "ten "
+        ]
+      ]
+    },
+    "5": {
+      "Hotel-Inform": [
+        [
+          "Phone",
+          "01223525725"
+        ]
+      ]
+    },
+    "4": {
+      "Booking-Inform": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Hotel-Inform": [
+        [
+          "Internet",
+          "none"
+        ]
+      ]
+    },
+    "6": {
+      "general-greet": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Hotel-Inform": [
+        [
+          "Choice",
+          "9"
+        ]
+      ]
+    },
+    "3": {
+      "Hotel-Recommend": [
+        [
+          "Name",
+          "The alexander bed and breakfast "
+        ]
+      ]
+    }
+  },
+  "SNG0676": {
+    "1": {
+      "Restaurant-Request": [
+        [
+          "Food",
+          "?"
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-Recommend": [
+        [
+          "Name",
+          "the Dojo Noodle Bar"
+        ],
+        [
+          "Food",
+          "Asian Oriental"
+        ]
+      ]
+    },
+    "4": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Inform": [
+        [
+          "Phone",
+          "01223363471"
+        ],
+        [
+          "Post",
+          "cb21rq"
+        ]
+      ]
+    }
+  },
+  "SNG01890": {
+    "1": "No Annotation",
+    "6": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Train-OfferBooked": [
+        [
+          "Ref",
+          "I3EAS0F7"
+        ]
+      ]
+    },
+    "9": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "14:07"
+        ],
+        [
+          "Ticket",
+          "10.10 pounds"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "4": {
+      "Train-Inform": [
+        [
+          "Id",
+          "TR4861"
+        ],
+        [
+          "Leave",
+          "13:29"
+        ]
+      ]
+    },
+    "7": {
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Train-Request": [
+        [
+          "Depart",
+          "?"
+        ]
+      ]
+    },
+    "8": {
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "3": {
+      "Train-Inform": [
+        [
+          "Day",
+          "Monday"
+        ],
+        [
+          "Dest",
+          "Bishops Stortford"
+        ],
+        [
+          "Depart",
+          "Cambridge"
+        ],
+        [
+          "Choice",
+          "5"
+        ]
+      ],
+      "Train-Request": [
+        [
+          "Leave",
+          "?"
+        ]
+      ]
+    }
+  },
+  "PMUL1026": {
+    "1": {
+      "Train-Request": [
+        [
+          "Leave",
+          "?"
+        ],
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    },
+    "5": {
+      "Attraction-Recommend": [
+        [
+          "Name",
+          "Christ's College"
+        ]
+      ],
+      "Attraction-Inform": [
+        [
+          "Fee",
+          "free"
+        ],
+        [
+          "Type",
+          "college"
+        ],
+        [
+          "Area",
+          "centre"
+        ],
+        [
+          "Choice",
+          "13"
+        ]
+      ]
+    },
+    "4": {
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Train-OfferBooked": [
+        [
+          "Ref",
+          "OWVUY7ZZ"
+        ],
+        [
+          "Ticket",
+          "132.8 GBP"
+        ]
+      ]
+    },
+    "6": {
+      "Attraction-Inform": [
+        [
+          "Addr",
+          "St. Anfrews st."
+        ],
+        [
+          "Name",
+          "Christs College"
+        ],
+        [
+          "Phone",
+          "01223334900"
+        ]
+      ]
+    },
+    "2": {
+      "Train-Inform": [
+        [
+          "Arrive",
+          "13:27"
+        ],
+        [
+          "Choice",
+          "5"
+        ],
+        [
+          "Leave",
+          "11:59"
+        ]
+      ]
+    },
+    "3": {
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "Train-Request": [
+        [
+          "People",
+          "?"
+        ]
+      ]
+    }
+  },
+  "PMUL0795": {
+    "1": {
+      "Restaurant-Request": [
+        [
+          "Food",
+          "?"
+        ]
+      ],
+      "Restaurant-NoOffer": [
+        [
+          "Food",
+          "Caribbean "
+        ]
+      ]
+    },
+    "6": {
+      "Train-Inform": [
+        [
+          "Leave",
+          "08:40"
+        ],
+        [
+          "Arrive",
+          "11:23"
+        ],
+        [
+          "Id",
+          "tr5635"
+        ]
+      ],
+      "Train-OfferBook": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "9": {
+      "general-bye": [
+        [
+          "none",
+          "none"
+        ]
+      ],
+      "general-welcome": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "5": {
+      "Train-Request": [
+        [
+          "Day",
+          "?"
+        ]
+      ]
+    },
+    "4": "No Annotation",
+    "7": {
+      "Train-Inform": [
+        [
+          "Ticket",
+          "75.10 each"
+        ]
+      ],
+      "general-reqmore": [
+        [
+          "none",
+          "none"
+        ]
+      ]
+    },
+    "2": {
+      "Restaurant-Request": [
+        [
+          "Area",
+          "?"
+        ]
+      ],
+      "Restaurant-Inform": [
+        [
+          "Choice",
+          "quite a few"
+        ],
+        [
+          "Food",
+          "Italian"
+        ]
+      ]
+    },
+    "8": {
+      "Train-Inform": [
+        [
+          "Time",
+          "163 minutes"
+        ]
+      ]
+    },
+    "3": {
+      "Restaurant-Recommend": [
+        [
+          "Area",
+          "west"
+        ],
+        [
+          "Price",
+          "moderate"
+        ],
+        [
+          "Name",
+          "Prezzo"
+        ]
+      ],
+      "Booking-Request": [
+        [
+          "Time",
+          "?"
+        ],
+        [
+          "Day",
+          "?"
+        ],
+        [
+          "People",
+          "?"
+        ]
+      ]
+    }
+  }
+}

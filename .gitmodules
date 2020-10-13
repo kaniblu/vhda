@@ -1,0 +1,3 @@
+[submodule "third_party/fasttext"]
+	path = third_party/fasttext
+	url = https://github.com/facebookresearch/fasttext
