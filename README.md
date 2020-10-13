@@ -1,7 +1,7 @@
 # Source Code for VHDA #
 
 This is the source code for Variational Hierarchical Dialog Autoencoder (VHDA), 
-an hierarchical and recurrent VAE model for generating task-oriented dialog corpora ([arXiv](https://arxiv.org/abs/2001.08604)).
+a hierarchical and recurrent VAE model for generating task-oriented dialog corpora ([arXiv](https://arxiv.org/abs/2001.08604)).
 
 
 ## Preparation ##
